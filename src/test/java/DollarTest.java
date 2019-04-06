@@ -12,7 +12,7 @@ public class DollarTest {
         Dollar result = ten.dividedBy(2);
 
         // Then
-        assertEquals(new Dollar(5), result);  // Change to 4 to see the failure
+        assertEquals(new Dollar(4), result);  // Change to 4 to see the failure
     }
 
     @Test(expected=ArithmeticException.class)
